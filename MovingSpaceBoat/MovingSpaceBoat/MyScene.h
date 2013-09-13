@@ -8,6 +8,10 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface MyScene : SKScene
+@interface MyScene : SKScene {
+    
+    SKSpriteNode *spaceboat;
+    
+}
 
 @end
