@@ -16,6 +16,10 @@
         
         self.backgroundColor = [SKColor colorWithRed:0.80 green:0.15 blue:0.3 alpha:1.0];
 
+        spaceboat = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship.png"];
+        [spaceboat setPosition:CGPointMake(self.size.width/2, self.size.height/2)];
+        spaceboat.anchorPoint = CGPointMake(0.5f, 0.5f);
+        [self addChild:spaceboat];
     }
     return self;
 }
