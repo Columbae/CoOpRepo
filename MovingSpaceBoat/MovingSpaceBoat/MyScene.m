@@ -15,7 +15,6 @@
         /* Setup your scene here */
         
         self.backgroundColor = [SKColor colorWithRed:0.80 green:0.15 blue:0.3 alpha:1.0];
-<<<<<<< HEAD
         
         SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
         
@@ -23,13 +22,11 @@
         myLabel.fontSize = 50;
         myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
                                        CGRectGetMidY(self.frame));
-=======
 
         spaceboat = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship.png"];
         [spaceboat setPosition:CGPointMake(self.size.width/2, self.size.height/2)];
         spaceboat.anchorPoint = CGPointMake(0.5f, 0.5f);
         [self addChild:spaceboat];
->>>>>>> Klemen
     }
     return self;
 }
