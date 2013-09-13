@@ -23,6 +23,10 @@
         myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
                                        CGRectGetMidY(self.frame));
 
+        spaceboat = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship.png"];
+        [spaceboat setPosition:CGPointMake(self.size.width/2, self.size.height/2)];
+        spaceboat.anchorPoint = CGPointMake(0.5f, 0.5f);
+        [self addChild:spaceboat];
     }
     return self;
 }
